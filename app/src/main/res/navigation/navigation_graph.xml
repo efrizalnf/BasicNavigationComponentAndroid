@@ -21,7 +21,7 @@
         android:id="@+id/categoryFragment"
         android:name="id.zlz.basicnavigationcomponentandroid.CategoryFragment"
         android:label="fragment_category"
-        tools:layout="@layout/fragment_category" />
+        tools:layout="@layout/fragment_category"/>
     <activity
         android:id="@+id/profileActivity"
         android:name="id.zlz.basicnavigationcomponentandroid.ProfileActivity"
