@@ -13,6 +13,10 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.NavHostFragment.findNavController
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import id.zlz.basicnavigationcomponentandroid.databinding.FragmentHomeBinding
 
 
@@ -28,6 +32,7 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
         return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -39,6 +44,7 @@ class HomeFragment : Fragment() {
         binding.btnProfile.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_profileActivity)
         )
+
     }
 
     override fun onDestroy() {
