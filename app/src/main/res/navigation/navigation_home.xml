@@ -18,10 +18,6 @@
         android:label="fragment_category"
         tools:layout="@layout/fragment_category"/>
 
-    <fragment
-        android:id="@+id/listFragment"
-        android:name="id.zlz.basicnavigationcomponentandroid.ListFragment"
-        android:label="List Fragment"
-        tools:layout="@layout/fragment_list"/>
+
 
 </navigation>

@@ -5,15 +5,13 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
 class PagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment){
-    override fun getItemCount(): Int {
-        return 2
-    }
+    override fun getItemCount(): Int = 2
 
     override fun createFragment(position: Int): Fragment {
         var fragment : Fragment? = null
         when(position){
             0-> fragment = HomeFragment()
-            1-> fragment = ListFragment()
+            1-> fragment = CategoryFragment()
         }
 
         return fragment as Fragment

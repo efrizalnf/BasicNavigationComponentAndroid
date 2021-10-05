@@ -27,12 +27,4 @@ class GuruFragment : Fragment() {
         return binding.root
     }
 
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(binding.root)
-//        viewPager2 = binding.pager
-//
-//        val pageradapter = ScreenSlidePagerAdapter(this)
-//        viewPager2.adapter = pageradapter
-//    }
 }

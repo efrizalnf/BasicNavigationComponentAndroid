@@ -16,8 +16,7 @@ class HomeFragment : Fragment() {
 
     private var _binding : FragmentHomeBinding? =null
     private val binding get() = _binding!!
-//    private lateinit var viewPager2: ViewPager2
-//
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -31,24 +30,8 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-//        binding.btnCategory.setOnClickListener{v->
-////            v.findNavController().navigate(R.id.action_homeFragment_to_categoryFragment)
-//        }
-
-//        binding.btnProfile.setOnClickListener(
-////            Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_profileActivity)
-//        )
-
     }
 
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(binding.root)
-////        viewPager2 = binding.pager
-////
-////        val pageradapter = ScreenSlidePagerAdapter(this)
-////        viewPager2.adapter = pageradapter
-//    }
 
     override fun onDestroy() {
         super.onDestroy()

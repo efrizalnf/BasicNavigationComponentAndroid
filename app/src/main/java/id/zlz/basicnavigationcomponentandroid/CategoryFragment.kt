@@ -13,11 +13,7 @@ class CategoryFragment : Fragment() {
 
     private var _binding: FragmentCategoryBinding? = null
     private val binding get() = _binding!!
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(binding.root)
-//
-//    }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

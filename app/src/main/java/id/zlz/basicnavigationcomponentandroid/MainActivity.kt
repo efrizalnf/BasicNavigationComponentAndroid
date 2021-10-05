@@ -18,15 +18,5 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        viewPager2 = binding.pager
-//
-//        val pageradapter = ScreenSlidePagerAdapter(this)
-//        viewPager2.adapter = pageradapter
-//        val bottomNavView: BottomNavigationView = binding.bottomnav
-//        val navController = findNavController(R.id.fragment_host)
-//        val appBarConfig = AppBarConfiguration.Builder(R.id.homeFragment, R.id.categoryFragment).build()
-////        Log.d("TAG", "onCreate: $navController" )
-//        setupActionBarWithNavController(navController, appBarConfig)
-//        bottomNavView.setupWithNavController(navController)
     }
 }
