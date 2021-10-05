@@ -5,10 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".GuruFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Guru fragment" />
+        android:layout_height="match_parent" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="Guru Fragment" />-->
 
 </FrameLayout>

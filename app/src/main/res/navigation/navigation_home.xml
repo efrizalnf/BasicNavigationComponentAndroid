@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_home"
+    app:startDestination="@id/guruFragment">
+
+
+    <fragment
+        android:id="@+id/guruFragment"
+        android:name="id.zlz.basicnavigationcomponentandroid.GuruFragment"
+        android:label="Guru Fragment"
+        tools:layout="@layout/fragment_guru"/>
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="id.zlz.basicnavigationcomponentandroid.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category"/>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="id.zlz.basicnavigationcomponentandroid.ListFragment"
+        android:label="List Fragment"
+        tools:layout="@layout/fragment_list"/>
+
+</navigation>

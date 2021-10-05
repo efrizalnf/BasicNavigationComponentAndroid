@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/homeFragment"
+        android:id="@+id/guruFragment"
         android:icon="@drawable/ic_baseline_accessibility_24"
-        android:title="Home" />
+        android:title="Guru" />
     <item
         android:id="@+id/categoryFragment"
         android:icon="@drawable/ic_baseline_account_circle_24"
