@@ -32,18 +32,29 @@ class GuruFragment : Fragment() {
 
         tabLayout = binding.tabLayout
         TabLayoutMediator(
-            tabLayout, viewPager2, TabLayoutMediator.TabConfigurationStrategy() { tab, position ->
-                when (position) {
-                    0 -> {
-                        tab.text = "Administrasi"
-                    }
-                    1 -> {
-                        tab.text = "Literasi"
-                    }
-                }
-            }).attach()
+            tabLayout, viewPager2
+        ) { tab, position ->
+//            when (position) {
+//                0 -> {
+//                    tab.text = "Administrasi"
+//                }
+//                1 -> {
+//                    tab.text = "Literasi"
+//                }
+//            }
+
+            tab.text =resources.getString(TAB_JUDUL[position])
+        }.attach()
 
         return binding.root
+    }
+
+
+    companion object {
+        private val TAB_JUDUL = intArrayOf(
+            R.string.tab1,
+            R.string.tab2,
+        )
     }
 
 }

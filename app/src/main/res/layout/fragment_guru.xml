@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".GuruFragment">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        />
+        android:background="?android:attr/colorControlNormal"
+        app:tabIndicator="@drawable/ic_baseline_account_circle_24"
+        app:tabIndicatorHeight="50dp"
+        app:tabIndicatorAnimationMode="linear"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorAnimationDuration="200"
+        app:tabTextColor="@color/white" />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </androidx.viewpager2.widget.ViewPager2>
+        android:layout_height="match_parent" />
 
 
-</FrameLayout>
+</LinearLayout>
